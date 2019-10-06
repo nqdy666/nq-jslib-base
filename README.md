@@ -3,7 +3,7 @@
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/nqdy666/nq-jslib-base/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/nqdy666/nq-jslib-base.svg?branch=master)](https://travis-ci.org/nqdy666/nq-jslib-base)
 [![Coveralls](https://img.shields.io/coveralls/nqdy666/nq-jslib-base.svg)](https://coveralls.io/github/nqdy666/nq-jslib-base)
-[![npm](https://img.shields.io/badge/npm/v/nq-jslib-base)](https://www.npmjs.com/package/nq-jslib-base)
+[![npm](https://img.shields.io/npm/v/nq-jslib-base)](https://www.npmjs.com/package/nq-jslib-base)
 [![NPM downloads](http://img.shields.io/npm/dm/nq-jslib-base.svg?style=flat-square)](http://www.npmtrends.com/nq-jslib-base)
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/nqdy666/nq-jslib-base.svg)](http://isitmaintained.com/project/nqdy666/nq-jslib-base "Percentage of issues still open")
 
@@ -144,8 +144,8 @@ $ npm publish
 ## :bulb: 谁在使用
 
 ## 鸣谢
-[jslib-base](https://github.com/yanhaijing/jslib-base/tree/babel)
-[nqJslibBase-h5](https://github.com/jinwyp/nqJslibBase-h5)
+- [jslib-base](https://github.com/yanhaijing/jslib-base/tree/babel)
+- [nqJslibBase-h5](https://github.com/jinwyp/nqJslibBase-h5)
 
 ## 捐赠
 
