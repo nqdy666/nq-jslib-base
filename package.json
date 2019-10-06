@@ -29,7 +29,7 @@
     "test:only": "mocha --require @babel/register ./test/**/*.js",
     "test": "npm run lint && cross-env NODE_ENV=test nyc npm run test:only",
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
-    "release:only": "git commit -am %npm_package_version% && git tag v%npm_package_version% && git push && git push --tags && echo 'i Run `npm publish` to publish'",
+    "release:only": "cross-var git commit -am $npm_package_version && git tag v$npm_package_version && git push && git push --tags && echo 'i Run `npm publish` to publish'",
     "release": "npm test && npm run build && npm run release:only"
   },
   "author": "nqdy666",
@@ -50,6 +50,7 @@
     "babel-plugin-istanbul": "^5.2.0",
     "coveralls": "^3.0.6",
     "cross-env": "^5.2.1",
+    "cross-var": "^1.1.0",
     "es5-shim": "^4.5.13",
     "eslint": "^6.5.1",
     "expect.js": "^0.3.1",
