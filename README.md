@@ -13,7 +13,7 @@
 
 ## :star: 特性
 
-- 支持ES6+或TypeScript编写源码，编译生成生产代码
+- 支持ES6+编写源码，编译生成生产代码
 - 集成 babel-runtime (默认关闭)
 - 第三方依赖自动注入（自动剔除第三方依赖无用代码tree shaking）
 - 多环境支持（支持浏览器原生，支持AMD，CMD，支持Webpack，Rollup，fis等，支持Node）
