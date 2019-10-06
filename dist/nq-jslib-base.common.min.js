@@ -1,0 +1,1 @@
+"use strict";function add(e,d){return e+d}Object.defineProperty(exports,"__esModule",{value:!0}),exports.add=add;
